@@ -409,18 +409,18 @@ INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
 );
 
 /*----------------------------------------------------------------------------
-Insert data into  `cl_sports`.`Branch Dimensional` Table
+Insert data into  `cl_sports`.`Branch Dimension` Table
 ------------------------------------------------------------------------------*/
 
-INSERT INTO `cl_sports`.`Branch Dimensional` VALUES (
+INSERT INTO `cl_sports`.`Branch Dimension` VALUES (
 "D01", "Blanchardstown", "Dublin"
 );
 
-INSERT INTO `cl_sports`.`Branch Dimensional` VALUES (
+INSERT INTO `cl_sports`.`Branch Dimension` VALUES (
 "D02", "Raheny", "Dublin"
 );
 
-INSERT INTO `cl_sports`.`Branch Dimensional` VALUES (
+INSERT INTO `cl_sports`.`Branch Dimension` VALUES (
 "D03", "Ringsend", "Dublin"
 );
 
