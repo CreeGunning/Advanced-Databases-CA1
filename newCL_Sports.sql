@@ -186,11 +186,11 @@ INSERT INTO  `cl_sports`.`Timeline Dimension` VALUES (
 );
 
 INSERT INTO  `cl_sports`.`Timeline Dimension` VALUES (
-"777709", "2019-01-10", 12, "DEC" , 2019
+"777709", "2019-12-10", 12, "DEC" , 2019
 );
 
 INSERT INTO  `cl_sports`.`Timeline Dimension` VALUES (
-"777710", "2019-01-16", 12, "DEC" , 2019
+"777710", "2019-12-16", 12, "DEC" , 2019
 );
 
 INSERT INTO  `cl_sports`.`Timeline Dimension` VALUES (
@@ -236,84 +236,85 @@ INSERT INTO  `cl_sports`.`Timeline Dimension` VALUES (
 /*----------------------------------------------------------------------------
 Insert data into `cl_sports`.`Adress Dimension` Table
 ------------------------------------------------------------------------------*/
+
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111111", "Dublin", "76 Hill Drive, Artane", "D07-0001"
+"111111", "Dublin", "76 Hill Drive, Artane", "D05 GH21"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111112", "Dublin", "92 Rune Drive, Coolock", "D07-0002"
+"111112", "Dublin", "92 Rune Drive, Coolock", "D06 RT72"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111113", "Dublin", "14 Willow Drive, Santry", "D07-0003"
+"111113", "Dublin", "14 Willow Drive, Santry", "D17 FC52"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111114", "Dublin", "12 Eastview Drive, Kilbarack", "D07-0004"
+"111114", "Dublin", "12 Eastview Drive, Kilbarack", "D04 TG62"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111115", "Dublin", "90 Sparrow Street, Tallaght", "D07-0005"
+"111115", "Dublin", "90 Sparrow Street, Tallaght", "D15 XF59"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111116", "Dublin", "10 Harris Street, Ringsend", "D07-0006"
+"111116", "Dublin", "10 Harris Street, Ringsend", "D03 KT81"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111117", "Dublin", "42 Harris Street, Ringsend", "D07-0007"
+"111117", "Dublin", "42 Harris Street, Ringsend", "D03 LN93"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111118", "Dublin", "61 Greenwood Avenue, Balbriggan", "D07-0008"
+"111118", "Dublin", "61 Greenwood Avenue, Balbriggan", "D02 FN03"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111119", "Dublin", "72 Jenson Lane, Blanchardstown", "D07-0009"
+"111119", "Dublin", "72 Jenson Lane, Blanchardstown", "D11 JB74"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111120", "Dublin", "68 Jenson Lane, Blanchardstown", "D07-0010"
+"111120", "Dublin", "68 Jenson Lane, Blanchardstown", "D11 TX29"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111121", "Dublin", "6 Clay Street, Raheny", "D07-0011"
+"111121", "Dublin", "6 Clay Street, Raheny", "D12 JK82"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111122", "Dublin", "41 Link Road, Rush", "D07-0012"
+"111122", "Dublin", "41 Link Road, Rush", "D21 KL02"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111123", "Dublin", "7 Gill Drive, Finglas", "D07-0013"
+"111123", "Dublin", "7 Gill Drive, Finglas", "D18 MW16"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111124", "Dublin", "78 Sparrow Street, Tallaght", "D07-0014"
+"111124", "Dublin", "78 Sparrow Street, Tallaght", "D15 RF30"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111125", "Dublin", "45 Fork Lane, Artane", "D07-0015"
+"111125", "Dublin", "45 Fork Lane, Artane", "D05 JD15"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111126", "Dublin", "38 Harp Street, Raheny", "D07-0016"
+"111126", "Dublin", "38 Harp Street, Raheny", "D12 WD21"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111127", "Dublin", "81 Gardener Street, Blanchardstown", "D07-0017"
+"111127", "Dublin", "81 Gardener Street, Blanchardstown", "D11 KR11"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111128", "Dublin", "7 Curb Drive, Coolock", "D07-0018"
+"111128", "Dublin", "7 Curb Drive, Coolock", "D06 DK21"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111129", "Dublin", "19 Fern Avenue, Raheny", "D07-0019"
+"111129", "Dublin", "19 Fern Avenue, Raheny", "D12 TK78"
 );
 
 INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
-"111130", "Dublin", "65 Huntsman Road, Ballymun", "D07-0020"
+"111130", "Dublin", "65 Huntsman Road, Ballymun", "D20 DM24"
 );
 
 
@@ -321,23 +322,23 @@ INSERT INTO `cl_sports`.`Adress Dimension`VALUES (
 Insert data into  `cl_sports`.`Customers Dimension` Table
 ------------------------------------------------------------------------------*/
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000001", "Jessica", "McGeady", "0835551321" , 111111
+"000001", "Jessica", "McGeady", "0835551321", 111111
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000002", "Kim", "McGowan","0835340321" , 111112
+"000002", "Kim", "McGowan", "0835340321", 111112
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000003", "Wilfred", "Keely", "0893372102" , 111113
+"000003", "Wilfred", "Keely", "0893372102", 111113
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000004", "Brian", "Moon",  "0831300432" , 111114
+"000004", "Brian", "Moon", "0831300432", 111114
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000005", "Jim", "Gunn",  "0856626300" ,111115
+"000005", "Jim", "Gunn", "0856626300", 111115
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
@@ -345,27 +346,27 @@ INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000007", "Lily", "Price","0872990325" , 111117
+"000007", "Lily", "Price", "0872990325", 111117
 );
 
 INSERT INTO`cl_sports`.`Customers Dimension` VALUES (
-"000008", "Zach", "Lynch","0890084358" , 111118
+"000008", "Zach", "Lynch", "0890084358", 111118
 );
 
 INSERT INTO`cl_sports`.`Customers Dimension` VALUES (
-"000009", "Mary", "Long",  "086666310", 111119
+"000009", "Mary", "Long", "086666310", 111119
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000010", "Quincy", "Quinn",  "0876444302",111120
+"000010", "Quincy", "Quinn", "0876444302", 111120
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000011", "Sean", "O'Driscoll","0836547331" , 111121
+"000011", "Sean", "O'Driscoll", "0836547331", 111121
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000012", "Billy", "Harold","0858822194" , 111122
+"000012", "Billy", "Harold", "0858822194", 111122
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
@@ -373,11 +374,11 @@ INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000014", "James", "Sloan",  "0867543026",111124
+"000014", "James", "Sloan", "0867543026", 111124
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000015", "Greta", "Woods",  "0876333520", 111125
+"000015", "Greta", "Woods", "0876333520", 111125
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
@@ -385,21 +386,201 @@ INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000017", "Sarah", "Grant",  "0836544439", 111127
+"000017", "Sarah", "Grant", "0836544439", 111127
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000018", "Joseph", "Hunt",  "0898366420", 111128
+"000018", "Joseph", "Hunt", "0898366420", 111128
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000019", "Lee", "Harford","0862833099", 111129
+"000019", "Lee", "Harford", "0862833099", 111129
 );
 
 INSERT INTO `cl_sports`.`Customers Dimension` VALUES (
-"000020", "Linda", "Medley","0878854603" , 111130 
+"000020", "Linda", "Medley", "0878854603", 111130 
 );
 
 /*----------------------------------------------------------------------------
-Insert data into  `cl_sports`.`Customers Dimension` Table
+Insert data into  `cl_sports`.`Branch Dimensional` Table
 ------------------------------------------------------------------------------*/
+
+INSERT INTO `cl_sports`.`Branch Dimensional` VALUES (
+"D01", "Blanchardstown", "Dublin"
+);
+
+INSERT INTO `cl_sports`.`Branch Dimensional` VALUES (
+"D02", "Raheny", "Dublin"
+);
+
+INSERT INTO `cl_sports`.`Branch Dimensional` VALUES (
+"D03", "Ringsend", "Dublin"
+);
+
+/*----------------------------------------------------------------------------
+Insert data into  `cl_sports`.`Item Dimension` Table
+------------------------------------------------------------------------------*/
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1101", "Addidas", "Soccer", "Footwear", "Adult X 20.2 Firm Ground", 15, 130.00, "D02"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1102", "Nike", "Soccer", "Training Range", "Premier League 20/21 Strike Football", 21, 28.00, "D01"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1103", "Nike", "Soccer", "Footwear", "Adults Mercurial Vapor 13 Academy Firm Ground", 14, 50.00, "D03"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1104", "Under Armour", "Soccer", "Clothing", "Mens MK1 Warmup Pant", 16, 40.00, "D02"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1105", "Under Armour", "Soccer", "Footwear", "Adult Cold Gear Armour Long Sleeve Top", 22, 30.00, "D02"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1106", "Adidas", "Soccer", "Clothing", "Adult Juventus 20/21 Home Jersey", 19, 50.00, "D03"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1107", "Nike", "Soccer", "Clothing", "Adult PSG 20/21 Home Jersey", 12, 50.00, "D01"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1108", "Nike", "Soccer", "Clothing", "Adult Liverpool 20/21 Home Jersey", 3, 40.00, "D03"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1109", "Puma", "Soccer", "Clothing", "Adult Man City 20/21 Home Jersey", 14, 45.00, "D02"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1110", "Adidas", "Soccer", "Clothing", "Adult Man Utd 20/21 Home Jersey", 7, 60.00, "D01"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1111", "Adidas", "Rugby", "Clothing", "Adult Leinster 20/21 Home Jersey", 10, 45.00, "D03"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1112", "Adidas", "Rugby", "Clothing", "Adult Leinster 20/21 Home Jersey", 15, 55.00, "D03"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1113", "Rhino", "Rugby", "Training Range", "Leinster Supportes Rugby Ball", 29, 15.00, "D01"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1114", "Addidas", "Rugby", "Footwear", "Adults Predator Malice Control Soft Ground", 11, 110.00, "D02"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1115", "Adidas", "Rugby", "Footwear", "Adults Malice Firm Ground", 13, 40.00, "D02"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1116", "O'Neills", "GAA", "Training Range", "GAA Gloves", 30, 25.00, "D03"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1117", "O'Neills", "GAA", "Training Range", "Inter County Football", 28, 20.00, "D02"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1118", "O'Neills", "GAA", "Clothing", "Kids Dublin 20/21 Home Jersey", 23, 50.00, "D01"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1119", "O'Neills", "GAA", "Clothing", "Adult Dublin Polo Shirt", 12, 30.00, "D01"
+);
+
+INSERT INTO `cl_sports`.`Item Dimension` VALUES(
+"CL1120", "O'Neills", "GAA", "Clothing", "Mens Dublin Full Zip Hooded Jacket", 23, 70.00, "D01"
+);
+
+/*----------------------------------------------------------------------------
+Insert data into  `cl_sports`.`Purchase Orders Dimension` Table
+------------------------------------------------------------------------------*/
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#73280601", "2019-01-17", "2019-01-18"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#87493202", "2019-03-11", "2019-03-11"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#33281030", "2019-05-30", "2019-05-30"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#66391046", "2019-08-04", "2019-08-05"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#98341059", "2019-11-14", "2019-11-17"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#78552306", "2019-11-22", "2019-11-25"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#65831907", "2019-11-29", "2019-11-30"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#88863108", "2019-12-02", "2019-12-04"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#87664509", "2019-12-12", "2019-12-15"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#71132910", "2019-12-19", "2019-12-23"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#44743112", "2020-03-01", "2020-03-01"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#23397512", "2020-06-14", "2020-06-14"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#89039513", "2020-09-06", "2020-09-07"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#78803914", "2020-10-14", "2020-10-14"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#66320415", "2020-11-21", "2020-11-23"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#77862916", "2020-11-30", "2020-11-30"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#84473217", "2020-12-10", "2020-12-13"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#74993418", "2020-12-21", "2020-12-23"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#44058240", "2020-12-23", "2020-12-28"
+);
+
+INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
+"#98366719", "2020-12-28", "2020-12-31"
+);
