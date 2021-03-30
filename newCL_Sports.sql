@@ -591,3 +591,47 @@ INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
 INSERT INTO `cl_sports`.`Purchase Orders Dimension` VALUES (
 "#98366719", "2020-12-28", "2020-12-31"
 );
+
+/*----------------------------------------------------------------------------
+Insert data into  `cl_sports`.`Online Orders Fact Table` Table
+------------------------------------------------------------------------------*/
+
+INSERT INTO `cl_sports`.`Online Orders Fact Table` VALUES (
+"000001", "#73280601", "777701", "CL1108"
+);
+
+INSERT INTO `cl_sports`.`Online Orders Fact Table` VALUES (
+"000002", "#87493202", "777702", "CL1107"
+);
+
+INSERT INTO `cl_sports`.`Online Orders Fact Table` VALUES (
+"000003", "#33281030", "777703", "CL1102"
+);
+
+INSERT INTO `cl_sports`.`Online Orders Fact Table` VALUES (
+"000004", "#66391046", "777704", "CL1102"
+);
+
+INSERT INTO `cl_sports`.`Online Orders Fact Table` VALUES (
+"000005", "#98341059", "777705", "CL1110"
+);
+
+INSERT INTO `cl_sports`.`Online Orders Fact Table` VALUES (
+"000006", "#78552306", "777706", "CL1113"
+);
+
+INSERT INTO `cl_sports`.`Online Orders Fact Table` VALUES (
+"000007", "#65831907", "777707", "CL1114"
+);
+
+INSERT INTO `cl_sports`.`Online Orders Fact Table` VALUES (
+"000008", "#88863108", "777708", "CL1111"
+);
+
+INSERT INTO `cl_sports`.`Online Orders Fact Table` VALUES (
+"000009", "#87664509", "777709", "CL1118"
+);
+
+INSERT INTO `cl_sports`.`Online Orders Fact Table` VALUES (
+"000010", "#71132910", "777710", "CL1116"
+);
