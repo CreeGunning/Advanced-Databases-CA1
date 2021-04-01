@@ -10,6 +10,7 @@ SELECT Timeline_Dimension.MonthID, sum(Item_Dimension.Price) AS "Total Sales", A
 FROM CL_SPORTS_Fact_Table
 INNER JOIN Timeline_Dimension ON CL_SPORTS_Fact_Table.TimeID=Timeline_Dimension.TimeID 
 INNER JOIN Item_Dimension ON CL_SPORTS_Fact_Table.ItemID=Item_Dimension.ItemID
+WHERE Timeline_Dimension.MonthID="11" OR Timeline_Dimension.MonthID="12"
 GROUP BY MonthID
 ORDER BY SUM(Item_Dimension.Price) DESC;
 
@@ -19,10 +20,14 @@ INNER JOIN Item_Dimension ON CL_SPORTS_Fact_Table.ItemID=Item_Dimension.ItemID
 GROUP BY SportsCategory
 ORDER BY COUNT(Item_Dimension.SportsCategory) DESC;
 
-SELECT CL_SPORTS_Fact_Table.OrderID, Timeline_Dimension.MonthText, DATEDIFF(Orders_Dimension.ShippingDate, Purchase_Orders_Dimension.ShippingDate) AS "Delivery Length (Days)"
+SELECT CL_SPORTS_Fact_Table.OrderID, Timeline_Dimension.MonthText, DATEDIFF(Purchase_Orders_Dimension.DeliveredDate, Purchase_Orders_Dimension.ShippingDate) AS "Delivery Length (Days)"
 FROM CL_SPORTS_Fact_Table
 INNER JOIN Purchase_Orders_Dimension ON CL_SPORTS_Fact_Table.OrderID=Purchase_Orders_Dimension.OrderID
 INNER JOIN Timeline_Dimension ON CL_SPORTS_Fact_Table.TimeID=Timeline_Dimension.TimeID
+WHERE Timeline_Dimension.MonthText="NOV" OR Timeline_Dimension.MonthText="DEC"
+ORDER BY MonthID;
+
+
 # Counts the amount of Assistant managers per branch
 # !!
 SELECT BNo, EmpNo, Fname, Lname, Role, COUNT(EmpNo)
